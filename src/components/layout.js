@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import { AlternateLinksContext } from "./wrapWithI18nProvider"
 import { useTranslation } from "react-i18next"
+import LocalizedLink from "./localizedLink"
 
 const Layout = ({ children }) => {
   const { t } = useTranslation("common")
@@ -24,6 +25,11 @@ const Layout = ({ children }) => {
                   </Link>
                 </li>,
               ])}
+          </ul>
+          <ul>
+            <li><LocalizedLink to="/">{t("pages.index")}</LocalizedLink></li>
+            <li><LocalizedLink to="/about/">{t("pages.about")}</LocalizedLink></li>
+            <li><LocalizedLink to="/projects/">{t("pages.projects")}</LocalizedLink></li>
           </ul>
         </div>
       </header>

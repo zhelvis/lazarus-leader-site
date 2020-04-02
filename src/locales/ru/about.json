@@ -1,8 +1,9 @@
 {
     "title": "Обо мне",
+    "description": "",
     "name": {
       "label": "ФИО",
-      "text": "Kondybaeva Almagul Baurzhanovna"
+      "text": "Кондыбаева Алмагуль Бауржановна"
     },
     "dateOfBirth": {
       "label": "Дата рождения",

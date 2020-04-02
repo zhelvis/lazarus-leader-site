@@ -11,6 +11,11 @@
     "ru": "Russe",
     "fr": "Français"
   },
+  "pages": {
+    "index": "Manifeste",
+    "about": "À propos de moi",
+    "projects": "Les projets"
+  },
   "createdBy": "développé par",
   "developer": {
     "name": "Vladimir Zhelvis",
