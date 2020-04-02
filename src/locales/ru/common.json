@@ -1,0 +1,20 @@
+{
+  "name": "Алмагуль Кондыбаева",
+  "position": "Руководитель ИТ-лаборатории Lazarus",
+  "phone": {
+    "label": "телефон"
+  },
+  "email": {
+    "label": "почта"
+  },
+  "languages": {
+    "en": "Английский",
+    "ru": "Русский",
+    "fr": "Французский"
+  },
+  "createdBy": "разработка:",
+  "developer": {
+    "name": "Владимир Жельвис",
+    "site": "https://zhelvis.github.io/ru/"
+  }
+}

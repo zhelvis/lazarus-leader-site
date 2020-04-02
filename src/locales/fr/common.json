@@ -1,18 +1,18 @@
 {
   "name": "Almagul Kondybaeva",
-  "position": "Leader of Lazarus IT lab",
+  "position": "Directeur de laboratoire informatique Lazarus",
   "phone": {
-    "label": "phone"
+    "label": "téléphone"
   },
   "email": {
     "label": "email"
   },
   "languages": {
-    "en": "English",
-    "ru": "Russian",
-    "fr": "French"
+    "en": "Anglais",
+    "ru": "Russe",
+    "fr": "Français"
   },
-  "createdBy": "created by",
+  "createdBy": "développé par",
   "developer": {
     "name": "Vladimir Zhelvis",
     "site": "https://zhelvis.github.io/"

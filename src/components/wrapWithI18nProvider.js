@@ -28,6 +28,7 @@ export function wrapWithI18nProvider({ element, props }) {
               props.pageContext.alternateLinks &&
               props.pageContext.alternateLinks.map((link) => (
                 <link
+                  key={link.language}
                   rel="alternate"
                   hrefLang={link.language}
                   href={link.path}
