@@ -1,0 +1,33 @@
+{
+  "title":"Expérience",
+  "item_1": {
+    "place": "Département de l'éducation permanente NITU MISiS",
+    "period": "2014 - 2015",
+    "position": "Ingénieur",
+    "description":"Collecte de données sur les applications et structuration en une base de données unique, travail avec des données sur le personnel passant toutes sortes de formations avancées."
+  },
+  "item_2": {
+    "place": "Siemens LLC (filiale à Moscou)",
+    "period": "2016-2017",
+    "position": "Programmeur",
+    "description":"Rédaction d'un programme pour travailler avec des données sur des événements publicitaires, collecter et analyser des données de l'ensemble du processus commercial du travail industriel d'une filiale de groupe en Fédération de Russie."
+  },
+  "item_3": {
+    "place": "Intelligent Systems LLC",
+    "period": "2017-2018",
+    "position": "Ingénieur robot mobile",
+    "description":"Elle a effectué un stage d'assemblage de robots mobiles dans le laboratoire du Moscow Polytechnic (MAMI) au Département de Robotique."
+  },
+  "item_4": {
+    "place": "NUST MISiS - Projet de collaboration de recherche CERN REC NIN NITU MISiS (laboratoire)",
+    "period": "2018 - heure actuelle",
+    "position": "Ingénieur de recherche, programmeur",
+    "description":"écriture de logiciels de haute technologie pour la recherche en physique des hautes énergies"
+  },
+  "item_5": {
+    "place": "FNCC RR service extrabudgétaire",
+    "period": "2018-2019",
+    "position": "Spécialiste, développeur en chef responsable",
+    "description":"écrire des logiciels de haute technologie pour la recherche en médecine fondament"
+  }
+}

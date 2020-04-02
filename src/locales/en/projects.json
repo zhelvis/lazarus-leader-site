@@ -1,0 +1,24 @@
+{
+  "title": "Projects",
+  "moreDetailsInDoc": "More details in the document",
+  "project_1": {
+    "title": "Pizza Delivery Service",
+    "description": "Service for the delivery of pizza, as well as other dishes from restaurants. The project is integrated into the accounting system of the catering center:",
+    "item_1": "creates an order through a computer, notifies the cashier through a mobile phone about the receipt of the order",
+    "item_2": "accepts payment through the online cashier, directs tax to the tax office through the fiscal data operator for each payment, sends the check to the buyer via SMS or e-mail, the money to pay for the order for the catering point is sent to the legal account of the catering organization through the payment system within 10 minutes according to the details entered into the system",
+    "item_3": "delivery is carried out with the help of the application service workers (individual entrepreneurs and individuals who independently register in the system and go through the labor contract authorization procedure)"
+  },
+  "project_2": {
+    "title": "Cloud Medical Imaging Web Service",
+    "description": "Web service for medical imaging of computed tomography images. The service is a platform for visualizing images in the DICOM format. The service is licensed by MIT. More details in the article. Permanent address of the project",
+    "link": "http://cern.ch/lazarus"
+  },
+  "project_3": {
+    "title": "Mobile application for the identification of pressure sores. Mobile app:",
+    "item_1": "forms the Bates Jensen questionnaire",
+    "item_2": "forms a tree and determines the stage of nosology",
+    "item_3": "creates a schedule of alerts for caring for the patient",
+    "item_4": "sends an emergency alert to the attending physician in case of a dangerous exacerbation",
+    "item_5": "forms a list with a schedule and means, methods and resources for treating a patient."
+  }
+}

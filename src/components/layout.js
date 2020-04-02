@@ -12,8 +12,7 @@ const Layout = ({ children }) => {
     <>
       <header>
         <div>
-          <h1>{t("name")}</h1>
-          <h2>{t("position")}</h2>
+          <h1>{t("title")}</h1>
           <p>{t("phone.label")}</p>
           <p>{t("email.label")}</p>
           <ul>
@@ -35,7 +34,7 @@ const Layout = ({ children }) => {
           <p>
             © {new Date().getFullYear()}
             {` `}
-            {t("name")}
+            {t("title")}
           </p>
           <small>
             {t("createdBy")}

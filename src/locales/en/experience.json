@@ -1,0 +1,33 @@
+{
+  "title":"Experience",
+  "item_1": {
+    "place": "Department of Continuing Education NITU MISiS",
+    "period": "2014 - 2015",
+    "position": "Engineer",
+    "description": "Collection of data on applications and structuring into a single database, work with data on personnel passing all kinds of advanced training."
+  },
+  "item_2": {
+    "place": "Siemens LLC (subsidiary in Moscow)",
+    "period": "2016-2017",
+    "position": "Software developer",
+    "description": "Writing a program for working with data on publicity events, collecting and analyzing data from the entire business process of the industrial work of a group branch in the Russian Federation."
+  },
+  "item_3": {
+    "place": "Intelligent Systems LLC",
+    "period": "2017-2018",
+    "position": "Mobile robot engineer",
+    "description": "She completed an internship to assemble mobile robots in the laboratory of the Moscow Polytechnic (MAMI) at the Department of Robotics"
+  },
+  "item_4": {
+    "place": "NUST MISiS - CERN research collaboration project REC NIN NITU MISiS (laboratory)",
+    "period": "2018 - current time",
+    "position": "research engineer, programmer",
+    "description": "writing high-tech software for research in high-energy physics"
+  },
+  "item_5": {
+    "place": "FNCC RR extrabudgetary department",
+    "period": "2018-2019",
+    "position": "specialist, chief responsible developer",
+    "description": "writing high-tech software for basic medicine research"
+  }
+}

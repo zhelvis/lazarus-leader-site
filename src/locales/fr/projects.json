@@ -1,0 +1,24 @@
+{
+  "title": "Les projets",
+  "moreDetailsInDoc": "Plus de détails dans le document",
+  "project_1": {
+    "title": "Service de livraison de pizza",
+    "description": "Service pour la livraison de pizza, ainsi que d'autres plats des restaurants. Le projet est intégré dans le système comptable du centre de restauration:",
+    "item_1": "crée une commande via un ordinateur, informe le caissier par téléphone portable de la réception de la commande",
+    "item_2": "accepte le paiement via la caisse en ligne, dirige la taxe au bureau des impôts via l'opérateur de données fiscales pour chaque paiement, envoie le chèque à l'acheteur par SMS ou e-mail, l'argent pour payer la commande du point de restauration est envoyé sur le compte légal de l'organisme de restauration via le système de paiement dans les 10 minutes selon les détails saisis dans le système",
+    "item_3": "La livraison est effectuée avec l'aide des travailleurs du service d'application (entrepreneurs individuels et particuliers qui s'inscrivent de manière indépendante dans le système et passent par la procédure d'autorisation du contrat de travail)"
+  },
+  "project_2": {
+    "title": "Service Web d'imagerie médicale en nuage",
+    "description": "Service Web pour l'imagerie médicale d'images de tomodensitométrie. Le service est une plateforme de visualisation d'images au format DICOM. Le service est autorisé par le MIT. Plus de détails dans l'article. Adresse permanente du projet",
+    "link": "http://cern.ch/lazarus"
+  },
+  "project_3": {
+    "title": "Application mobile pour l'identification des escarres. Application mobile:",
+    "item_1": "forme le questionnaire Bates Jensen",
+    "item_2": "forme un arbre et détermine le stade de la nosologie",
+    "item_3": "crée un calendrier d'alertes pour prendre soin du patient",
+    "item_4": "envoie une alerte d'urgence au médecin traitant en cas d'exacerbation dangereuse",
+    "item_5": "forme une liste avec un calendrier et des moyens, des méthodes et des ressources pour traiter un patient"
+  }
+}

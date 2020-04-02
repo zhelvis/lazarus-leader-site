@@ -1,0 +1,21 @@
+{
+  "title": "L'éducation",
+  "item_1": {
+    "university": "Université nationale des sciences et de la technologie MISIS",
+    "department": "Département d'Ingénierie Cybernétique",
+    "period": "2012-2016",
+    "grade": "Baccalauréat (mathématiques appliquées)"
+  },
+  "item_2": {
+    "university": "Université nationale des sciences et de la technologie MISIS",
+    "department": "Département des systèmes de contrôle automatisés",
+    "period": "2016-2018",
+    "grade": "Master (informatique appliquée)"
+  },
+  "item_3": {
+    "university": "Université nationale des sciences et de la technologie MISIS",
+    "department": "Département d'Ingénierie Cybernétique",
+    "period": "2018-2022",
+    "grade": "Étudiant diplômé (system analysis)"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "title": "About me",
+  "name": {
+    "label": "Name",
+    "text": "Kondybaeva Almagul Baurzhanovna"
+  },
+  "dateOfBirth": {
+    "label": "Date of birth",
+    "text": "10.17.1990"
+  },
+  "education": {
+    "label": "Education",
+    "text": "National University of Science and Technology MISiS"
+  },
+  "specialty": {
+    "label": "Specialty",
+    "text": "Applied Mathematics"
+  },
+  "qualification": {
+    "label": "Qualification",
+    "text": "Post-graduate student in the direction 05.13.01 (system analysis), developer of high-tech software, applied mathematician."
+  },
+  "languages": {
+    "label": "Languages",
+    "text": "English, Russian, French, Kazakh"
+  },
+  "relationship": {
+    "label": "Relationship status",
+    "text": "Single"
+  },
+  "text": "NUST MISiS (ITASU) - head the sector of the Lazar software development laboratory, a member of the sports programming ICM ACPC movement in NUST MISiS."
+}

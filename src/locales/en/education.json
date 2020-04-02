@@ -1,0 +1,21 @@
+{
+  "title": "Education",
+  "item_1": {
+    "university": "NUST MISIS",
+    "department": "Department of Engineering Cybernetics",
+    "period": "2012-2016",
+    "grade": "Undergraduate (applied maths)"
+  },
+  "item_2": {
+    "university": "NITU MISIS",
+    "department": "Department of Automated Control Systems",
+    "period": "2016-2018",
+    "grade": "Masters degree (applied IT)"
+  },
+  "item_3": {
+    "university": "NUST MISIS",
+    "department": "Department of Engineering Cybernetics",
+    "period": "2018-2022",
+    "grade": "Post-graduate student (system analysis)"
+  }
+}
