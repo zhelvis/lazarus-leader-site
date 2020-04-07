@@ -1,5 +1,5 @@
-import React from "react"
-
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { useTranslation } from "react-i18next"
@@ -9,8 +9,10 @@ const NotFoundPage = () => {
   return (
     <Layout>
       <SEO title={`404: ${t("notFound")}`} />
-      <h1>404</h1>
-      <p>{t("notFoundMessage")}</p>
+      <div sx={{ variant: "container" }}>
+        <h1>404</h1>
+        <p>{t("notFoundMessage")}</p>
+      </div>
     </Layout>
   )
 }
