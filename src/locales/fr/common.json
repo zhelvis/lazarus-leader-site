@@ -1,10 +1,15 @@
 {
   "title": "Almagul Kondybaeva",
+  "subtitle": "NUST MISiS (ITASU) - dirige le secteur du laboratoire de développement de logiciels Lazar, membre du mouvement de programmation sportive ICM ACPC dans NUST MISiS.", 
   "phone": {
-    "label": "téléphone"
+    "label": "Téléphone",
+    "text": "+7 901 901 94 45",
+    "link": "tel:+79019019445"
   },
   "email": {
-    "label": "email"
+    "label": "Email",
+    "text": "alma.kond@gmail.com",
+    "link": "mailto:alma.kond@gmail.com"
   },
   "languages": {
     "en": "Anglais",
@@ -16,9 +21,13 @@
     "about": "À propos de moi",
     "projects": "Les projets"
   },
-  "createdBy": "développé par",
+  "createdBy": "Développé par",
   "developer": {
     "name": "Vladimir Zhelvis",
     "site": "https://zhelvis.github.io/"
+  },
+  "menu": {
+    "open": "Ouvrir le menu",
+    "close": "Fermer le menu"
   }
 }

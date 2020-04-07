@@ -1,12 +1,16 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
+import { useTranslation } from "react-i18next"
 
 function SEO({ description, meta, title }) {
+
+  const { t } = useTranslation("common")
 
   return (
     <Helmet
       title={title}
+      titleTemplate={`${t("title")} | %s`}
       meta={[
         {
           name: `description`,

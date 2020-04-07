@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: "https://example.com",
   },
   plugins: [
+    `gatsby-plugin-theme-ui`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,

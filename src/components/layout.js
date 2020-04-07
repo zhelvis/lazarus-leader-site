@@ -1,55 +1,16 @@
-import React, { useContext } from "react"
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
-import { AlternateLinksContext } from "./wrapWithI18nProvider"
-import { useTranslation } from "react-i18next"
-import LocalizedLink from "./localizedLink"
+import Header from "./header"
+import Footer from "./footer"
 
 const Layout = ({ children }) => {
-  const { t } = useTranslation("common")
-  const alternateLinks = useContext(AlternateLinksContext)
-
   return (
-    <>
-      <header>
-        <div>
-          <h1>{t("title")}</h1>
-          <p>{t("phone.label")}</p>
-          <p>{t("email.label")}</p>
-          <ul>
-            {alternateLinks &&
-              alternateLinks.map((link, i) => [
-                <li key={i}>
-                  <Link to={link.path} hrefLang={link.language}>
-                    {t(`languages.${link.language}`)}
-                  </Link>
-                </li>,
-              ])}
-          </ul>
-          <ul>
-            <li><LocalizedLink to="/">{t("pages.index")}</LocalizedLink></li>
-            <li><LocalizedLink to="/about/">{t("pages.about")}</LocalizedLink></li>
-            <li><LocalizedLink to="/projects/">{t("pages.projects")}</LocalizedLink></li>
-          </ul>
-        </div>
-      </header>
-      <hr />
-      <div>
-        <main>{children}</main>
-        <footer>
-          <p>
-            © {new Date().getFullYear()}
-            {` `}
-            {t("title")}
-          </p>
-          <small>
-            {t("createdBy")}
-            {` `}
-            <a href={t("developer.site")}>{t("developer.name")}</a>
-          </small>
-        </footer>
-      </div>
-    </>
+    <div>
+      <Header />
+      <main sx={{ display: "block", pt: "60px" }}>{children}</main>
+      <Footer />
+    </div>
   )
 }
 

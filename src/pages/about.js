@@ -1,9 +1,11 @@
-import React from "react"
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { useTranslation } from "react-i18next"
 import Education from "../components/education"
 import Experience from "../components/experience"
+import Banner from "../components/banner"
 
 const AboutPage = () => {
   const { t } = useTranslation("about")
@@ -11,6 +13,8 @@ const AboutPage = () => {
   return (
     <Layout>
       <SEO title={t("title")} description={t("description")} />
+      <Banner />
+      <div sx={{ variant: 'container'}}>
       <h2>{t("title")}</h2>
       <table>
         <tbody>
@@ -44,6 +48,7 @@ const AboutPage = () => {
           </tr>
         </tbody>
       </table>
+      </div>
       <Education />
       <Experience />
     </Layout>
