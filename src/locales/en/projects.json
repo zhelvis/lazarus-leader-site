@@ -1,6 +1,5 @@
 {
   "title": "Projects",
-  "description": "",
   "moreDetailsInDoc": "More details in the document",
   "project_1": {
     "title": "Pizza Delivery Service",
@@ -11,7 +10,7 @@
   },
   "project_2": {
     "title": "Cloud Medical Imaging Web Service",
-    "description": "Web service for medical imaging of computed tomography images. The service is a platform for visualizing images in the DICOM format. The service is licensed by MIT. More details in the article. Permanent address of the project",
+    "description": "Web service for medical imaging of computed tomography images. The service is a platform for visualizing images in the DICOM format. The service is licensed by MIT.",
     "link": "http://cern.ch/lazarus"
   },
   "project_3": {

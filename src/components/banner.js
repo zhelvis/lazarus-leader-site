@@ -13,7 +13,7 @@ export default () => {
         color: "background",
       }}
     >
-      <div sx={{ maxWidth: '768px', py: [3, 5] }}>
+      <div sx={{ maxWidth: '768px', py: [3, 4] }}>
         <h1>{t("title")}</h1>
         <p>{t("subtitle")}</p>
         <hr

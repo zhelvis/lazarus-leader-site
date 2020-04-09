@@ -1,10 +1,11 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
 import { useTranslation } from "react-i18next"
 
-const NotFoundPage = () => {
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+
+export default () => {
   const { t } = useTranslation("404")
   return (
     <Layout>
@@ -16,5 +17,3 @@ const NotFoundPage = () => {
     </Layout>
   )
 }
-
-export default NotFoundPage

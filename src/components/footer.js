@@ -8,8 +8,6 @@ export default () => {
   return (
     <footer
       sx={{
-        display: "flex",
-        flexDirection: "column",
         py: 4,
         px: "7vw",
       }}
@@ -19,6 +17,7 @@ export default () => {
         {` `}
         {t("title")}
       </span>
+      <br/>
       <small sx={{ color: "grey" }}>
         {t("createdBy")}
         {` `}

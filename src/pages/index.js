@@ -1,23 +1,19 @@
-/** @jsx jsx */
-import { jsx } from "theme-ui"
+import React from 'react'
+import { useTranslation } from "react-i18next"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Banner from "../components/banner"
-import { useTranslation, Trans } from "react-i18next"
+import Manifest from "../components/manifest"
 
-const IndexPage = () => {
-  const { t } = useTranslation("index")
+export default () => {
+  const { t } = useTranslation("indexPage")
 
   return (
     <Layout>
       <SEO title={t("title")} description={t("description")} />
       <Banner />
-      <div sx={{ variant: 'container' }}>
-        <h2>{t("manifest.title")}</h2>
-        <Trans>{t("manifest.text")}</Trans>
-      </div>
+      <Manifest />
     </Layout>
   )
 }
-
-export default IndexPage

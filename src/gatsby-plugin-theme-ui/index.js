@@ -97,13 +97,17 @@ export default {
       borderCollapse: "separate",
       borderSpacing: 0,
     },
-    th: {
-      textAlign: "left",
-      borderBottomStyle: "solid",
-    },
     td: {
+      display: "table-cell",
+      py: 2,
+      minWidth: ["200px", "250px"],
+      borderBottom: "1px solid #dedede",
+      verticalAlign: "top",
       textAlign: "left",
-      borderBottomStyle: "solid",
+      "&:first-of-type": {
+        whiteSpace: "nowrap",
+        pr: 2,
+      },
     },
     img: {
       maxWidth: "100%",
@@ -111,35 +115,45 @@ export default {
   },
   link: {
     nav: {
-      display: `inline-block` /* For IE11/ MS Edge bug */,
-      color: `inherit`,
+      display: "inline-block" /* For IE11/ MS Edge bug */,
+      color: "inherit",
       fontWeight: 700,
       p: 2,
       mr: 3,
-      textDecoration: `none`,
+      textDecoration: "none",
       '&[aria-current="page"]': {
-        pointerEvents: `none`,
-        color: `primary`,
+        pointerEvents: "none",
+        color: "primary",
       },
     },
     body: {
       color: "primary",
-      textDecoration: `none`,
+      textDecoration: "none",
       "&:hover": {
-        textDecoration: `underline`,
+        textDecoration: "underline",
       },
     },
     contrast: {
       color: "background",
-      textDecoration: `none`,
+      textDecoration: "none",
       "&:hover": {
-        textDecoration: `underline`,
+        textDecoration: "underline",
       },
     },
+    disabled: {
+      color: "muted",
+      textDecoration: "none",
+      pointerEvents: "none",
+    }
   },
   container: {
     maxWidth: "1024px",
-    py: [3, 4],
+    pt: [3, 4],
     px: "7vw",
+  },
+  item: {
+    border: "1px solid #dedede",
+    p: 2,
+    mb: 2,
   },
 }
