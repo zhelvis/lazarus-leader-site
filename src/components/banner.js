@@ -27,14 +27,6 @@ export default () => {
         <p>
           <a
             sx={{ variant: "link.contrast" }}
-            aria-label={t("phone.label")}
-            href={t("phone.link")}
-          >
-            {t("phone.text")}
-          </a>
-          <br />
-          <a
-            sx={{ variant: "link.contrast" }}
             aria-label={t("emal.label")}
             href={t("email.link")}
           >

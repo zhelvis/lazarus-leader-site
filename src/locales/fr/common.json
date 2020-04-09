@@ -1,11 +1,6 @@
 {
   "title": "Almagul Kondybaeva",
   "subtitle": "NUST MISiS (ITASU) - dirige le secteur du laboratoire de développement de logiciels Lazar, membre du mouvement de programmation sportive ICM ACPC dans NUST MISiS.", 
-  "phone": {
-    "label": "Téléphone",
-    "text": "+7 901 901 94 45",
-    "link": "tel:+79019019445"
-  },
   "email": {
     "label": "Email",
     "text": "alma.kond@gmail.com",

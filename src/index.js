@@ -5,7 +5,21 @@ import { Helmet } from "react-helmet"
 
 export const AlternateLinksContext = React.createContext([])
 
-export function wrapWithI18nProvider({ element, props }) {
+export function wrapRootElement({ element, props }) {
+  return (
+    <React.Fragment>
+      <Helmet>
+        <link
+          href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap"
+          rel="stylesheet"
+        />
+      </Helmet>
+      <div {...props}>{element}</div>
+    </React.Fragment>
+  )
+}
+
+export function wrapPageElement({ element, props }) {
   const i18n = i18next
     .createInstance({
       lng: props.pageContext.language,

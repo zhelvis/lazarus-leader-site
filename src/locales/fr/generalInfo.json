@@ -4,10 +4,6 @@
     "label": "Nom",
     "text": "Kondybaeva Almagul Baurzhanovna"
   },
-  "dateOfBirth": {
-    "label": "Date de naissance",
-    "text": "10.17.1990"
-  },
   "education": {
     "label": "Formation",
     "text": "Université nationale des sciences et de la technologie MISiS"
@@ -23,11 +19,6 @@
   "languages": {
     "label": "Connaissance des langues",
     "text": "Anglais, Russe, Français, Kazakh"
-  },
-  "relationship": {
-    "label": "Statut de la relation",
-    "text": "Célibataire"
-  },
-  "text": "NUST MISiS (ITASU) - dirige le secteur du laboratoire de développement de logiciels Lazar, membre du mouvement de programmation sportive ICM ACPC dans NUST MISiS."
+  }
 }
 

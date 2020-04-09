@@ -1,1 +1,1 @@
-export { wrapWithI18nProvider as wrapPageElement } from "./src/components/wrapWithI18nProvider"
+export { wrapPageElement, wrapRootElement } from "./src/index"

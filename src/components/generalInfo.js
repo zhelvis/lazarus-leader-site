@@ -16,10 +16,6 @@ export default () => {
               <Styled.td>{t("name.text")}</Styled.td>
             </tr>
             <tr>
-              <Styled.td>{t("dateOfBirth.label")}</Styled.td>
-              <Styled.td>{t("dateOfBirth.text")}</Styled.td>
-            </tr>
-            <tr>
               <Styled.td>{t("education.label")}</Styled.td>
               <Styled.td>{t("education.text")}</Styled.td>
             </tr>
@@ -34,10 +30,6 @@ export default () => {
             <tr>
               <Styled.td>{t("languages.label")}</Styled.td>
               <Styled.td>{t("languages.text")}</Styled.td>
-            </tr>
-            <tr>
-              <Styled.td>{t("relationship.label")}</Styled.td>
-              <Styled.td>{t("relationship.text")}</Styled.td>
             </tr>
           </tbody>
         </Styled.table>

@@ -2,7 +2,7 @@
 import { jsx } from "theme-ui"
 import React, { useContext } from "react"
 import { Link } from "gatsby"
-import { AlternateLinksContext } from "./wrapWithI18nProvider"
+import { AlternateLinksContext } from "../index"
 import { useTranslation } from "react-i18next"
 
 export default () => {
